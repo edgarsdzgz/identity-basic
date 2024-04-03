@@ -1,6 +1,14 @@
 # Welcome to identity-basic
 
-This is a basic web application that integrates vanilla JS, HTML, and CSS with a Node and Express backend. It is integrated with a MySQL database and uses standard SQL queries to populate and affect the DB. 
+This is a basic web application that integrates: 
+- Vanilla JavaScript
+- HTML
+- CSS
+- Node
+- Express
+- MySQL
+
+HTML, CSS, and JS form the front-end. With vanilla JavaScript and DOM manupulation allowing for the whole of the front-end to work. It creates a simplified front-end which is able to make fetch calls to hit back-end routes similar to a React project. The back end runs on Node and Express. The routing is basic and calls upon a database service which queries MySQL. It is integrated with a MySQL database and uses standard SQL queries to populate and affect the DB. 
 The basics of the appliation is to manipulate objects using a basic router and database. This is the basis for other projects, as I will be slowly building into other technologies that I am more excited about, such as:
  - React
  - RTK Query
